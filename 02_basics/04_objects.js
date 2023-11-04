@@ -61,8 +61,40 @@ const users = [
 
 console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "tarun"
+}
+// Object Destructuring
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+//Destructuring in React example
+// const navbar = ({company}) =>{
+
+// }
+
+// navbar(company = "tarun")
+
+//JSON
+// {
+//     "name":'tarun',
+//     "coursename": 'js in hindi',
+//     "price": 'free'
+// }
+
+// JSON as a array
+// [
+//     {},
+//     {},
+//     {}
+// ]
